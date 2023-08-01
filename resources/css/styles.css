@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link button {
+  border: none;
+  background: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* 
+  font-family: 'Poppins', sans-serif; 
+  font-family: 'Space Mono', monospace;
+  font-family: 'Borel', cursive;
+  font-family: 'Satisfy', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  */
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.nav-link {
+  list-style: none;
+  margin: 20px;
+}
+
+.nav-link a {
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.nav-link a p {
+  font-family: "Space Mono", monospace;
+  margin: 0 20px 0 20px;
+}
+
+.tab-indicator {
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  background: rgba(248, 248, 220, 0.7);
+  border-radius: 25px;
+  z-index: -1;
+  top: 5.25%;
+  /* left: 28.85%; */
+  left: 38.85%;
+  /* left: 48.85%; */
+  /* left: 58.85%; */
+}
+
+.title,
+.description {
+  padding: 50px;
+  top: 50px;
+}
+
+#about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 380px;
+  margin: 0 90px 0 90px;
+}
+
+.title {
+  height: 200px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.description {
+  height: 300px;
+  width: 600px;
+  background: rgba(236, 235, 235, 0.329);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.title h1 {
+  font-size: 60px;
+  font-family: "Satisfy";
+}
+
+.title p {
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.description p {
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.social {
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social img {
+  height: 30px;
+  width: 30px;
+}
+
+.social button {
+  width: 140px;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.social button:hover {
+  background: lightgoldenrodyellow;
+  border: 1px solid rgb(253, 253, 164);
+}
+
+.social button p {
+  font-size: 16px;
+  font-weight: bold;
+}

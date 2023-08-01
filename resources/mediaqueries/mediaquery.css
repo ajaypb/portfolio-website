@@ -1,0 +1,72 @@
+@media only screen and (max-width: 515px) {
+  body,
+  .title,
+  .description,
+  .nav-container,
+  .nav-link,
+  .nav-link a p,
+  #about,
+  .social {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    margin: 21px;
+  }
+
+  .nav-link a p {
+    font-size: 16px;
+    margin: 0 15px 0 15px;
+  }
+
+  .tab-indicator {
+    position: absolute;
+    width: 80px;
+    height: 35px;
+    background: rgba(248, 248, 220, 0.7);
+    border-radius: 20px;
+    z-index: -1;
+    top: 2.75%;
+    /* left: 12%; */
+    left: 28.5%;
+    /* left: 45.85%; */
+    /* left: 65.35%; */
+  }
+
+  #about,
+  .title,
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    width: 100%;
+    position: relative;
+    top: 30%;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .social {
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+  }
+
+  .description {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    padding: 20px;
+  }
+
+  .description p {
+    font-size: 16px;
+  }
+}
