@@ -3,62 +3,180 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/resources/css/styles.css" />
-    <link rel="stylesheet" href="/resources/mediaqueries/mediaquery.css" />
-    <title>Ajay PB | Cyber Security Enthusiast</title>
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/mediaquery/mediaquery.css" />
+    <title>Ajay PB &middot; Cybersecurity Enthusiast</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="nav-container">
-          <li class="nav-link">
-            <a href="#"><p>Work</p></a>
+      <nav class="navigation-container">
+        <ul class="navigation-items">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <p>Work</p>
+            </a>
           </li>
-          <li class="nav-link">
-            <a href="#"><p>About</p></a>
+          <li class="nav-item active">
+            <a href="#" class="nav-link">
+              <p>About</p>
+            </a>
           </li>
-          <li class="nav-link">
-            <a href="#"><p>Blogs</p></a>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <p>Blogs</p>
+            </a>
           </li>
-          <li class="nav-link">
-            <button>
-              <a href="#"><p>Contact</p></a>
-            </button>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <p>Contact</p>
+            </a>
           </li>
         </ul>
       </nav>
-      <!-- <div class="tab-indicator"></div> -->
     </header>
     <section id="about">
-      <div class="title">
-        <div class="details">
-          <p>Hi there!</p>
-          <h1>I'm Ajay</h1>
-          <p>Cybersecurity Product Manager</p>
+      <div class="about-container">
+        <div class="intro">
+          <div class="title">
+            <p>Hi there!</p>
+            <h1>I'm Ajay</h1>
+            <p>Cybersecurity Product Manager</p>
+          </div>
+          <div class="social">
+            <button>
+              <a href="resources/files/resume-ajaypb.pdf" target="_blank">Download CV</a>
+            </button>
+            <a href="https://www.linkedin.com/in/ajaypb" target="_blank"
+              ><img src="resources/images/linkedin.png" alt="LinkedIn"
+            /></a>
+            <a href="https://www.github.com/ajaypb" target="_blank"
+              ><img src="resources/images/github.png" alt="Github"
+            /></a>
+          </div>
         </div>
-        <div class="social">
-          <button>
-            <a href="resources/files/resume-ajaypb.pdf" target="_blank"
-              ><p>Download CV</p></a
-            >
-          </button>
-          <a href="https://www.linkedin.com/in/ajaypb" target="_blank"
-            ><img src="resources/images/linkedin.png" alt="LinkedIn Profile"
-          /></a>
-          <a href="https://www.github.com/ajaypb" target="_blank"
-            ><img src="resources/images/github.png" alt="GitHub Profile"
-          /></a>
+        <div class="description">
+          <p>
+            Over the past 9 years, I've worked in various areas of security
+            domain, including network, endpoint, operations, engineering, and
+            software development.<br /><br />
+            These days, I focus on creating various MSSP technologies stack and
+            introduce automation as service or wherever applicable for Tata
+            Communications as a Product Manager.
+          </p>
         </div>
-      </div>
-      <div class="description">
-        <p>
-          Over the past 9 years, I've worked in various areas of security
-          domain, including network, endpoint, operations, engineering, and
-          software development.<br /><br />
-          These days, I focus on creating various MSSP technologies stack for
-          Tata Communications and introduce automation as a Product Manager.
-        </p>
       </div>
     </section>
+    <section id="experience">
+      <div class="container">
+        <div class="experience-section-header">
+          <h2>Work History</h2>
+        </div>
+        <div class="organizations">
+          <div class="company current">
+            <div>
+              <h3>Tata Communications</h3>
+              <h4>Cybersecurity Product Manager</h4>
+            </div>
+            <div>
+              <h3 class="duration">19~</h3>
+            </div>
+          </div>
+          <div class="company second">
+            <div>
+              <h3>Comodo Security Solutions</h3>
+              <h4>Sr. Security Analyst</h4>
+            </div>
+            <div>
+              <h3 class="duration">16-19</h3>
+            </div>
+          </div>
+          <div class="company first">
+            <div>
+              <h3>HCL Technologies</h3>
+              <h4>Sr. Engineer</h4>
+            </div>
+            <div>
+              <h3 class="duration">14-16</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="technology">
+      <div class="container">
+        <div class="technology-section-header">
+          <h2>Technical Expertise</h2>
+        </div>
+        <div class="technology-section-content">
+          <div class="content">
+            <div class="content-header">
+              <h3>Network Security</h3>
+            </div>
+            <div class="content-items">
+              <ul>
+                <li>Palo Alto Firewall</li>
+                <li>FortiGate Firewall</li>
+                <li>FireEye IDS/IPS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <div class="content-header">
+              <h3>Endpoint Security</h3>
+            </div>
+            <div class="content-items">
+              <ul>
+                <li>Trend Micro Vision One</li>
+                <li>SentinelOne Endpoint Security</li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <div class="content-header">
+              <h3>Data Security</h3>
+            </div>
+            <div class="content-items">
+              <ul>
+                <li>McAfee Database Security</li>
+              </ul>
+            </div>
+          </div>
+          <div class="content">
+            <div class="content-header">
+              <h3>Detect & Respond</h3>
+            </div>
+            <div class="content-items">
+              <ul>
+                <li>LogRhythm SIEM</li>
+                <li>In-house SOAR</li>
+                <li>Cyber Threat Intelligence (CTI)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certification">
+      <div class="container">
+        <div class="certificate-section-header">
+          <h2>Professional Certification</h2>
+        </div>
+        <div class="certificate-section-content">
+          <ul>
+            <li>
+              <h4>
+                Certified Information Systems Security Professional (CISSP)
+              </h4>
+              <p>[Credential ID: 610233 | Expires on: March 25]</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>Copyright 2023 &middot; Ajay PB</p>
+      </div>
+    </footer>
   </body>
 </html>
