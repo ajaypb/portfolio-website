@@ -1,72 +1,123 @@
 @media only screen and (max-width: 515px) {
-  body,
-  .title,
-  .description,
-  .nav-container,
-  .nav-link,
-  .nav-link a p,
   #about,
-  .social {
+  .about-container,
+  .intro,
+  .title {
     margin: 0;
     padding: 0;
   }
 
-  body {
-    margin: 21px;
+  section {
+    padding: 15px 0;
   }
 
-  .nav-link a p {
-    font-size: 16px;
-    margin: 0 15px 0 15px;
-  }
-
-  .tab-indicator {
-    position: absolute;
-    width: 80px;
-    height: 35px;
-    background: rgba(248, 248, 220, 0.7);
-    border-radius: 20px;
-    z-index: -1;
-    top: 2.75%;
-    /* left: 12%; */
-    left: 28.5%;
-    /* left: 45.85%; */
-    /* left: 65.35%; */
-  }
-
-  #about,
-  .title,
+  .intro,
   .description {
+    padding: 30px 0;
+  }
+
+  .nav-item {
+    margin: 0 20px 0 20px;
+  }
+  .nav-link p {
+    font-size: 12px;
+  }
+
+  .about-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
-  .title {
+  .intro {
     width: 100%;
-    position: relative;
-    top: 30%;
-  }
-
-  .details {
     text-align: center;
   }
 
-  .social {
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0 10px 0;
-  }
-
   .description {
-    width: 100%;
-    position: relative;
-    top: 50%;
-    padding: 20px;
+    width: 90%;
+    padding: 50px;
   }
 
   .description p {
+    font-size: 14px;
+  }
+
+  .social {
+    margin: auto;
+  }
+
+  .experience-section-header {
+    grid-column: 3 / 23;
+    text-align: center;
+  }
+
+  .current {
+    grid-column: 1 / 25;
+    background: lightblue;
+  }
+
+  .second {
+    grid-row: 2;
+    grid-column: 1 / 25;
+  }
+
+  .first {
+    grid-row: 3;
+    grid-column: 1 / 25;
+  }
+
+  .technology-section-header {
+    grid-column: 3 / 23;
+    text-align: center;
+  }
+
+  .technology-section-content {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  .content {
+    display: flex;
+    width: auto;
+    justify-content: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template: 1fr / repeat(24, 1fr);
+  }
+
+  .certificate-section-header {
+    grid-column: 2 / 24;
+    text-align: center;
+  }
+
+  .certificate-section-content {
+    grid-column: 5 / 23;
+  }
+
+  .certificate-section-content ul {
+    list-style: none;
+  }
+
+  .certificate-section-content h4 {
     font-size: 16px;
+  }
+
+  .certificate-section-content p {
+    font-size: 10px;
+  }
+
+  .experience-section-header,
+  .technology-section-header,
+  .certificate-section-header {
+    padding-bottom: 15px;
+  }
+
+  footer {
+    height: 2.5vh;
+    font-size: 10px;
   }
 }
